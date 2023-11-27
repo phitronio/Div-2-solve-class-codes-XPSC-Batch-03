@@ -11,8 +11,6 @@ typedef long double ld;
 const int N = 2e5 +5;
 typedef pair<int,int> pii;
 
-
-
 void TEST_CASES()
 {
 

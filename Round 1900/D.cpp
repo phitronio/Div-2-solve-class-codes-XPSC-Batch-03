@@ -34,6 +34,7 @@ ll cal(vector<int>&a, int n)
     ll ans = 0;
     for(int i=0;i<a.size();i++)
     {
+        // fixing j
         ans += i *1ll* (n-a[i]-1);
     }
     return ans;
